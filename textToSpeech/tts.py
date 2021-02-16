@@ -43,7 +43,7 @@ def main():
     print("\n**********Welcome to Rock Paper Scissor*********\n")
     print("Play rock paper scissor with me....\n")
     print("If you win, I will speak what ever you want me to say.\n")
-    print("You can quit the game by type: quit\n")
+    print("You can quit the game by typing: quit\n")
     input_val =""
     while(True):
         input_val = input("\nrock,paper,scissor....\n")

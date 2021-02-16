@@ -22,7 +22,7 @@ def agent(value):
         choice = lose_dict[value]
         print(choice)
         # speaking text
-        print("I got " + choice +" Oh no you win.I will say anything")
+        print("I got " + choice +". Oh no you win.I will say anything")
         command = "flite \" I got {0}. Oh no you win.I will say anything.\" -o test.wav && afplay test.wav".format(choice)
         os.system(command)
         # type something for tts

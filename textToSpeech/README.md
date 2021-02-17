@@ -34,7 +34,7 @@ Here is the game interface in command line:
 
 ## Run Python File
 
-To run the file just do the following command
+Before running python file, we need to install flite. Follow [flite-osx github](https://github.com/tobiastoft/flite-osx) instructions. To run the file just do the following command
 ```bash
 python3 tts.py
 ```

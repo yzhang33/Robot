@@ -36,6 +36,8 @@ def agent(value):
         print("I got " + choice +". Try again")
         command = "flite \" I got {0}.Try again\" -o test.wav && afplay test.wav".format(choice)
         os.system(command)
+    command = "rm test.wav"
+    os.system(command)
 
  # "sys.argv" returns an array with the arguments passed when Python interpreter was launched.
 
@@ -54,6 +56,9 @@ def main():
             os.system(command)
             break
         #say(sys.argv[1])
+    command = "rm test.wav"
+    os.system(command)
+
 
 if __name__ == "__main__":
     main()

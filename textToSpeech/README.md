@@ -34,15 +34,7 @@ Here is the game interface in command line:
 
 ## Run Python File
 
-Before running python file, we need to install flite. Follow these command:
-```bash
-git clone http://github.com/festvox/flite
-cd flite
-./configure
-make
-make get_voices
-```
-To run the file just do the following command
+Before running python file, we need to install flite. Follow [flite-osx github](https://github.com/tobiastoft/flite-osx) instructions. To run the file just do the following command
 ```bash
 python3 tts.py
 ```

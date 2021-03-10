@@ -17,5 +17,5 @@ Outputs will be interaction on screen and some interaction on the light controll
 
 Voice recognition and pose estimation are the two main computations the bot will make. Speech to text part I have already done in assignment 2. Some of the computations will be very similar. The pose estimation part is a little tricky and I am trying to train the best model possible to make an accurate estimation. 
 
-![digram](digram.jpg)
+![digram](map.jpg)
 
